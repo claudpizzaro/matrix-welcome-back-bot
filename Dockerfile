@@ -16,4 +16,4 @@ ENV NODE_ENV=production
 ENV NODE_CONFIG_DIR=/data/config
 
 VOLUME ["/data"]
-CMD node /matrix-wb-bot/index.js
+CMD ["node","/matrix-wb-bot/index.js"]
